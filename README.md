@@ -28,7 +28,7 @@ If you intend to serve the project on a publicly accessible server, you should a
 e.g. [nginx](https://gunicorn.org/index.html#deployment) or [traefik](https://containo.us/traefik/).
 
 1. Install Docker.
-    * Most unixoids will have a `docker.io` package hosted in one of their repositories. See also [here](https://docs.docker.com/engine/install/linux-postinstall/).
+    * Most unixoids will have a `docker.io` and `docker-compose` package hosted in one of their repositories. See also [here](https://docs.docker.com/engine/install/linux-postinstall/). To get the guaranteed latest version of compose, see [here](https://docs.docker.com/compose/install/).
     * [Windows Installer](https://hub.docker.com/editions/community/docker-ce-desktop-windows/). Note the system requirements, and the alternative Docker Toolbox download for systems unsupported by Docker Desktop.
     * [OSX installer](https://hub.docker.com/editions/community/docker-ce-desktop-mac/). Note the system requirements, and the alternative Docker Toolbox download for systems unsupported by Docker Desktop.
 2. Open a command line interface and navigate to the root of this project, containing the `docker-compose.yml` and `Dockerfile` files.
